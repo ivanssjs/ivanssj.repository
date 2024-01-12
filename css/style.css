@@ -238,6 +238,13 @@ input, textarea {
 
 .fotos-comentarios{
     display: grid;
+    justify-content: center;
+    padding: 200px;
+    gap: 2rem;
+}
+
+.compra{
+    border-radius: 2rem;
 }
 
 
