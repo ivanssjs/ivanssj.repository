@@ -4,48 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="/img/favicon.jpg" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
+
     <header>
-        <div class="nav">
-        <nav>   
-            <ul class="menu"> 
-                <li class="menu-item"><a class="menu-link" href="../index.html">Inicio</a></li>
-                <li class="menu-item"><a class="menu-link" href="./productos.html">Productos</a></li>
-                <li class="menu-item"><a class="menu-link" href="./sobre-nosotros.html">Sobre nosotros</a></li>
-                <li class="menu-item"><a class="menu-link" href="./contacto.html">Contacto</a></li>
-                <li class="menu-item"><a class="menu-link" href="./comentarios.html">Comentarios</a></li>
+        <img class="logo" src="../img/perlatto.png" alt="logo">
+        <button id="abrir" class="abrir-menu">abrir</button>
+        <nav class="nav" id="nav">
+            <button id="cerrar" class="cerrar-menu"><i class="bi bi-x-lg"></i></button>  
+            <ul class="nav-list"> 
+                <li><a href="../index.html"><i>Perlatto Café</i></a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./sobre-nosotros.html">Sobre nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./comentarios.html">Comentarios</a></li>
             </ul>
         </nav>
-        </div>
     </header>
+
     <main>
-        <article>
-            <section class="titulo-productos">
-                <h2>Nuestros Productos</h2>
-                <p>Durante todos estos años nos esforzamos en mejorar nuestra tecnica para dejarles una buena experiencia y de esa forma lograr que nos visiten de nuevo</p>
-            </section>
-            <section class="img-productos">
-                <img class="cafe-1" src="../img/menu-1.jpg" alt="cafe-1">
-                <img class="cafe-2" src="../img/menu-2.jpg" alt="cafe-2">
-                <img class="cafe-3" src="../img/menu-3.jpg" alt="cafe-3">
-            </section>
-        </article>
-    </main>
+
+    <div class="container">
+
+        <section class="titulo-productos">
+            <h2>Seleccionados de Café</h2>
+        </section>
+
+        <section class="img-productos">
+            <div class="cafe">
+                <h2>Café Australiano</h2>
+                <img class="img-australiano" src="../img/cafe-australiano.jpg" alt="cafe-australiano">
+            </div>
+
+            <div class="cafe">
+                <h2>Café Helado</h2>
+                <img class="img-helado" src="../img/cafe-helado.jpg" alt="cafe-helado">
+            </div>
+
+            <div class="cafe">
+                <h2>Café Inglés</h2>
+                <img class="img-ingles" src="../img/cafe-ingles.jpg" alt="cafe-ingles">
+            </div>
+
+            <div class="cafe">
+                <h2>Café Irish</h2>
+                <img class="img-irish" src="../img/cafe-irish.jpg" alt="cafe-irish">
+            </div>
+
+            <div class="cafe">
+                <h2>Café Liqueurs</h2>    
+                <img class="img-liqueurs" src="../img/cafe-liqueurs.jpg" alt="cafe-liqueurs">
+            </div>
+
+            <div class="cafe">
+                <h2>Café Viena</h2>
+                <img class="img-viena" src="../img/cafe-viena.jpg" alt="cafe-viena">
+            </div>
+        </section>
+
     </div>
+
+    </main>
+
     <footer class="footer">
         <ul class="redes-footer">
             <li class="footer-item"><a class="footer-link" href="">Instagram</a></li>
             <li class="footer-item"><a class="footer-link" href="">Facebook</a></li>
             <li class="footer-item"><a class="footer-link" href="">Twitter</a></li>
         </ul>
-        <br>
         <hr>
         <br>
-        <p class="texto-footer">Derechos de autor © 2023.</p>
+        <p class="texto-footer">ivanssjs.coder © 2023.</p>
     </footer>
+    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
