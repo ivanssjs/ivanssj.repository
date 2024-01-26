@@ -1,0 +1,38 @@
+.inicio{
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/banner.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.banner{
+    .contenido-banner {
+        max-width: 90rem;
+        margin: 0 auto;
+        padding: 8rem ;
+    }
+
+    .contenido-banner p {
+        color: #c7a17a ;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: 500;
+    }
+
+    .contenido-banner h2 {
+        color: #fff;
+        font-size: 3.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .comprar-link {
+        margin-top: 2rem;
+        text-decoration: none;
+        color: #fff;
+        background-color: #c7a17a ;
+        display: inline-block;
+        padding: 1rem 3rem;
+        border-radius: 2rem;
+    }
+
+}
