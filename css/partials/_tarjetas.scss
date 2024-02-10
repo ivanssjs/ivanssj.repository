@@ -3,29 +3,13 @@
     .titulo-productos{
         text-align: center;
         color: white;
-        padding: 70px;
-        font-size: 30px;
+        padding: 50px;
+        font-size: 60px;
     }
 
 }
 
-.img-productos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5rem;
-
-    .cafe{
-        text-align: center;
-        color: white;
-        padding: 0px;
-    }
-    
-    .cafe h2{
-        font-size: 25px;
-    }
-    
-    .cafe img{
-        border-radius: 1rem;
-    }
-
+.card-title{
+   text-align: center;
+   font-size: 2rem;
 }

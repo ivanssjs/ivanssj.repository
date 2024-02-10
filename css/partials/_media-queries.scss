@@ -159,6 +159,12 @@
         gap: 1rem;
     }
 
+    .fotos-comentarios {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
     .contenido-banner {
         padding: 3rem;
     }
@@ -237,4 +243,5 @@
     .titulo-nosotros p {
         font-size: 14px;
     }
+
 }

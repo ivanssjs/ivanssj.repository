@@ -44,7 +44,7 @@ nav .nav-list li a:hover {
 }
 
 .abrir-menu,
-.cerrar-menu {
+.cerrar-menu{
   display: none;
 }
 
@@ -84,25 +84,13 @@ nav .nav-list li a:hover {
 .container .titulo-productos {
   text-align: center;
   color: white;
-  padding: 70px;
-  font-size: 30px;
+  padding: 50px;
+  font-size: 60px;
 }
 
-.img-productos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 5rem;
-}
-.img-productos .cafe {
+.card-title {
   text-align: center;
-  color: white;
-  padding: 0px;
-}
-.img-productos .cafe h2 {
-  font-size: 25px;
-}
-.img-productos .cafe img {
-  border-radius: 1rem;
+  font-size: 2rem;
 }
 
 .container .titulo-nosotros {
@@ -337,6 +325,11 @@ nav .nav-list li a:hover {
   .img-productos {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .fotos-comentarios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
   .contenido-banner {
